@@ -7,14 +7,16 @@ import { InicioComponent } from './inicio/inicio.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardComponent } from './card/card.component';
-import { MatCardModule } from '@angular/material/card'
+import { MatCardModule } from '@angular/material/card';
+import { InformeTituladosComponent } from './informe-titulados/informe-titulados.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
     CabeceraComponent,
-    CardComponent
+    CardComponent,
+    InformeTituladosComponent
   ],
   imports: [
     BrowserModule,
